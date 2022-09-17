@@ -1,5 +1,5 @@
 # Adora (Automatic DORA Metrics tool)
-
+#
 [![Deploy to ECR](https://github.com/produtoreativo/adora/actions/workflows/deploy.yaml/badge.svg?branch=master)](https://github.com/produtoreativo/adora/actions/workflows/deploy.yaml)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b2ac8594e7f040eb81bb4031e147c53a)](https://www.codacy.com/gh/joao-felipe-santoro/adora/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joao-felipe-santoro/adora&amp;utm_campaign=Badge_Grade)
