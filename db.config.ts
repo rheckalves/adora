@@ -13,7 +13,7 @@ const ssl = process.env.DATABASE_SSL
 export default registerAs('database', () => {
   return {
     type: 'postgres',
-    synchronize: false,
+    synchronize: true,
     logging: true,
     ...ssl,
     autoLoadEntities: true,
