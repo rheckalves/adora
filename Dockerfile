@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=development
+RUN npm instal --legacy-peer-deps --only=development
 
 COPY . .
 
@@ -19,7 +19,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=production
+RUN npm install --legacy-peer-deps --only=production
 
 COPY . .
 
