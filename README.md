@@ -1,4 +1,4 @@
-## Adora (Automatic DORA Metrics tool)
+# Adora (Automatic DORA Metrics tool)
 
 [![Deploy to ECR](https://github.com/produtoreativo/adora/actions/workflows/deploy.yaml/badge.svg?branch=master)](https://github.com/rheckalves/adora/actions/workflows/deploy.yaml)
 
