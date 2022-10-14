@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne } from 'typeorm';
+/* import { Column, Entity, ManyToOne } from 'typeorm';
 
 import { Application } from './application.entity';
 import { BaseEntity } from './base.entity';
@@ -21,3 +21,4 @@ export class Deployment extends BaseEntity {
   application: Application;
 
 }
+ */

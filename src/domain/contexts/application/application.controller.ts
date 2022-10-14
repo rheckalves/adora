@@ -1,4 +1,4 @@
-import { Body, Controller, Post } from '@nestjs/common';
+/* import { Body, Controller, Post } from '@nestjs/common';
 import { ApplicationService } from './application.service';
 import { Application } from '../..//entities/application.entity';
 import { ApiBody } from '@nestjs/swagger';
@@ -15,3 +15,4 @@ export class ApplicationController {
     return this.applicationService.createApplication(application);
   }
 }
+ */

@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner} from "typeorm";
+/* import {MigrationInterface, QueryRunner} from "typeorm";
 
 export class createLeadTimeContext1646611729065 implements MigrationInterface {
     name = 'createLeadTimeContext1646611729065'
@@ -42,3 +42,4 @@ export class createLeadTimeContext1646611729065 implements MigrationInterface {
     }
 
 }
+ */

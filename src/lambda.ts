@@ -7,7 +7,7 @@ import { NestFactory } from '@nestjs/core';
 import { ExpressAdapter } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
 
-const express = require('express');
+import express from 'express';
 
 // NOTE: If you get ERR_CONTENT_DECODING_FAILED in your browser, this is likely
 // due to a compressed response (e.g. gzip) which has not been handled correctly
@@ -18,17 +18,20 @@ const binaryMimeTypes: string[] = [];
 let cachedServer: Server;
 
 async function bootstrapServer(): Promise<Server> {
- if (!cachedServer) {
+  if (!cachedServer) {
     const expressApp = express();
-    const nestApp = await NestFactory.create(AppModule, new ExpressAdapter(expressApp))
+    const nestApp = await NestFactory.create(
+      AppModule,
+      new ExpressAdapter(expressApp),
+    );
     nestApp.use(eventContext());
     await nestApp.init();
     cachedServer = createServer(expressApp, undefined, binaryMimeTypes);
- }
- return cachedServer;
+  }
+  return cachedServer;
 }
 
 export const handler: Handler = async (event: any, context: Context) => {
- cachedServer = await bootstrapServer();
- return proxy(cachedServer, event, context, 'PROMISE').promise;
-}
+  cachedServer = await bootstrapServer();
+  return proxy(cachedServer, event, context, 'PROMISE').promise;
+};

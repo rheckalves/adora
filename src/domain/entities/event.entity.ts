@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne } from 'typeorm';
+/* import { Column, Entity, ManyToOne } from 'typeorm';
 
 import { Application } from './application.entity';
 import { BaseEntity } from './base.entity';
@@ -41,3 +41,4 @@ export class Event extends BaseEntity {
   @ManyToOne((type) => Task)
   task: Task;
 }
+ */

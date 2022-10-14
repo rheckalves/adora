@@ -1,4 +1,4 @@
-import { Column, Entity, OneToMany } from 'typeorm';
+/* import { Column, Entity, OneToMany } from 'typeorm';
 
 import { BaseEntity } from './base.entity';
 import { Deployment } from './deployment.entity';
@@ -22,3 +22,4 @@ export class Application extends BaseEntity {
   @OneToMany((type) => Deployment, (deployment) => deployment.application)
   deployments: Deployment[];
 }
+ */

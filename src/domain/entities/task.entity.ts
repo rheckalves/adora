@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne, OneToMany, CreateDateColumn } from 'typeorm';
+/* import { Column, Entity, ManyToOne, OneToMany, CreateDateColumn } from 'typeorm';
 import { Application } from './application.entity';
 import { BaseEntity } from './base.entity';
 import { Event } from './event.entity';
@@ -37,3 +37,4 @@ export class Task extends BaseEntity {
   @OneToMany((type) => Event, (events) => events.application)
   events: Event[];
 }
+ */

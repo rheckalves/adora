@@ -1,4 +1,4 @@
-import { Body, Controller, Param, Post } from '@nestjs/common';
+/* import { Body, Controller, Param, Post } from '@nestjs/common';
 import { ApiBody } from '@nestjs/swagger';
 import { DeliveryService } from './delivery.service';
 import { Event } from '../../entities/event.entity';
@@ -39,3 +39,4 @@ export class DeliveryController {
   }
 
 }
+ */

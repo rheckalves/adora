@@ -1,4 +1,4 @@
-import {
+/* import {
   PrimaryGeneratedColumn,
   Column,
   UpdateDateColumn,
@@ -38,3 +38,4 @@ export abstract class BaseEntity {
     }
   };
 }
+ */

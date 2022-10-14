@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+/* import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Application } from '../..//entities/application.entity';
 
@@ -19,3 +19,4 @@ export class ApplicationService {
     });
   }
 }
+ */
